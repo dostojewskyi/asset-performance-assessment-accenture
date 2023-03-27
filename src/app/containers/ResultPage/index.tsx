@@ -35,11 +35,11 @@ const E = localStorage.getItem('E');
 const Chart = () => {
 
     const data = [
-        { name: 'Skill A', x: 21 },
-        { name: 'Skill B', x: 22 },
-        { name: 'Skill C', x: -32 },
-        { name: 'Skill D', x: -14 },
-        { name: 'Skill E', x: -51 },
+        { name: 'Skill A', x: A },
+        { name: 'Skill B', x: B },
+        { name: 'Skill C', x: C },
+        { name: 'Skill D', x: D },
+        { name: 'Skill E', x: E },
     ];
 
     return (

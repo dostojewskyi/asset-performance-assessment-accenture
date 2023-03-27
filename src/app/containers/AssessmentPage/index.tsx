@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import {Navbar} from "../../components/navbar";
@@ -7,15 +7,6 @@ import {SubmitItems} from "../../components/submission/submitsurvey";
 import SelectComponent from "../../components/assessment/selectsurvey";
 
 const options = ['1', '2', '3', '4', '5', '6', '7'];
-const variants = ['A']
-
-const QA: React.FC = () => {
-    return (
-        <div>
-            <SelectComponent options={options} variants={['B']} />
-        </div>
-    );
-};
 
 const SelectA: React.FC = () => {
     return (
@@ -67,14 +58,6 @@ const PageContainer = styled.div`
         items-center
         overflow-x-hidden
     `}
-`;
-
-const Divider = styled.div`
-  width: auto;
-  hr {
-    width: auto;
-    height: auto;
-  }
 `;
 
 export function AssessmentPage() {

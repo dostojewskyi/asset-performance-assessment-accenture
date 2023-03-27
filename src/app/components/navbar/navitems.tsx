@@ -43,10 +43,10 @@ export function NavItems() {
                         <a href='/AssessmentPage'>Assessment</a>
                     </NavItem>
                     <NavItem>
-                        <a href='#'>Result</a>
+                        <a href='/ResultPage'>Result</a>
                     </NavItem>
                     <NavItem>
-                        <a href='#'>Training</a>
+                        <a href='/TrainingPage'>Training</a>
                     </NavItem>
                 </ListContainer>
             </Menu>

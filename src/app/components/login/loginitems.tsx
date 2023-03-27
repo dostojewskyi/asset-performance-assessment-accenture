@@ -56,10 +56,10 @@ export function LogItems() {
             <a>Password: |___________|</a>
         </LogItem>
         <LogAction>
-            <a href='#'>LogIn</a>
+            <a href='https://www.accenture.com'>LogIn</a>
         </LogAction>
         <LogAction>
-            <a href='#'>Register</a>
+            <a href='https://www.accenture.com'>Register</a>
         </LogAction>
         <br/>
         <br/>

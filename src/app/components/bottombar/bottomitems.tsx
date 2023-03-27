@@ -33,13 +33,13 @@ export function BottomItems() {
             <a href='https://www.accenture.com/us-en/about/industry-x-index' target="_blank">Accenture IX</a>
         </BottomItem>
         <BottomItem>
-            <a href='#'>Digital Manufacturing</a>
+            <a href='https://www.accenture.com'>Digital Manufacturing</a>
         </BottomItem>
         <BottomItem>
-            <a href='#'>Imprint</a>
+            <a href='https://www.accenture.com'>Imprint</a>
         </BottomItem>
         <BottomItem>
-            <a href='#'>Privacy notice</a>
+            <a href='https://www.accenture.com'>Privacy notice</a>
         </BottomItem>
     </ListContainer>
 }

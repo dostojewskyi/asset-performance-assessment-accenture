@@ -2,8 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import {Navbar} from "../../components/navbar";
-import BgImg from "../../../assets/BgHomePage.png";
-import {Logbar} from "../../components/login";
 import {Bottombar} from "../../components/bottombar";
 
 const PageContainer = styled.div`
@@ -18,15 +16,6 @@ const PageContainer = styled.div`
     `}
 `;
 
-const Image = styled.div`
-  width: auto;
-  ${tw`h-auto max-w-screen-xl`};
-  img {
-    width: auto;
-    height: 100%;
-  }
-`;
-
 const Divider = styled.div`
   width: auto;
   hr {
@@ -35,13 +24,9 @@ const Divider = styled.div`
   }
 `;
 
-export function HomePage() {
+export function AssessmentPage() {
     return <PageContainer>
         <Navbar />
-        <Image>
-            <img src={BgImg} alt=''/>
-        </Image>
-        <Logbar />
         <Divider />
         <Bottombar />
     </PageContainer>;

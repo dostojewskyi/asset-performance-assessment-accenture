@@ -22,7 +22,7 @@ const Image = styled.div`
 export function Logo() {
     return <LogoContainer>
         <Image>
-            <img src={AcnIx} alt=''/>
+            <img src={AcnIx} alt='Accenture Industry X'/>
         </Image>
     </LogoContainer>
 }

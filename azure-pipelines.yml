@@ -27,7 +27,6 @@ steps:
 
 - task: S3Upload@1
   inputs:
-    awsCredentials: 'uml-AZUREdevops-to-uml-AWS'
     regionName: 'eu-central-1'
     bucketName: 'mdi-asset-performance-assessment'
     sourceFolder: '$(Build.ArtifactStagingDirectory)/dist'

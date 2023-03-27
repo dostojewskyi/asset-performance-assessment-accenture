@@ -32,3 +32,4 @@ steps:
     bucketName: 'mdi-asset-performance-assessment'
     sourceFolder: '$(Build.ArtifactStagingDirectory)/dist'
     globExpressions: '**'
+

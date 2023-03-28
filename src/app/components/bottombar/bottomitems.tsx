@@ -8,13 +8,13 @@ const ListContainer = styled.ul`
     justify-end
     w-full
     list-none
-    bg-purple-800
+    bg-black
     `};
 `;
 
 const BottomItem = styled.li`
   ${tw`
-    text-xs
+    text-sm
     text-white
     md:text-base
     mr-1
@@ -24,6 +24,7 @@ const BottomItem = styled.li`
     duration-300
     ease-in-out
     hover:text-purple-200
+    space-x-4
     `};
 `;
 

@@ -41,7 +41,11 @@ export function HomePage() {
         <Image>
             <img src={BgImg} alt=''/>
         </Image>
+        <br/>
+        <br/>
         <Logbar />
+        <br/>
+        <br/>
         <Divider />
         <Bottombar />
     </PageContainer>;

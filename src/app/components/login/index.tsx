@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from "styled-components";
 import tw from "twin.macro";
-import {LogItems} from "./loginitems";
+import Loginitems from "./loginitems";
 
 const LogInContainer = styled.div`
   min-height: 68px;
@@ -14,14 +14,14 @@ const LogInContainer = styled.div`
     items-center
     lg:pl-12
     lg:pr-12
-    justify-between
+    justify-center
   `};
 `;
 
 export function Logbar() {
     return (
         <LogInContainer>
-            <LogItems />
+            <Loginitems onSubmit={useState} />
         </LogInContainer>
     )
 }

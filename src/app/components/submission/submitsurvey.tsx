@@ -15,14 +15,14 @@ const SubmitAction = styled.li`
   ${tw`
     text-xs
     md:text-base
-    text-black
+    text-purple-700
     mr-1
     md:mr-5
     cursor-pointer
     transition
     duration-300
     ease-in-out
-    hover:text-gray-700
+    hover:text-purple-800
     hover:font-bold
     `};
 `;

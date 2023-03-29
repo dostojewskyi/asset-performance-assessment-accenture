@@ -38,6 +38,9 @@ const Divider = styled.div`
 export function HomePage() {
     return <PageContainer>
         <Navbar />
+        <div className={`justify-center bg-no-repeat bg-cover bg-center rounded-lg`}
+             style={{ backgroundImage: `url(${BgImg})`}} >
+        </div>
         <Image>
             <img src={BgImg} alt=''/>
         </Image>

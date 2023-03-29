@@ -8,7 +8,6 @@ const NavbarContainer = styled.div`
   min-height: 68px;
   ${tw`
     w-full
-    max-w-screen-xl
     place-content-end
     flex
     flex-row
